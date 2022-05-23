@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "745501952248",
+    "project_id": "sketch-voca",
+    "storage_bucket": "sketch-voca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745501952248:android:1b86b5d93f844a87d9130d",
+        "android_client_info": {
+          "package_name": "kr.ac.jbnu.se.mobile.sketchvoca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745501952248-2cbafeln13cumscgvrt5o9acchpa4ivo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlx1Wc65mD0oaieK8GH2FRz6wkavlSWgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745501952248-2cbafeln13cumscgvrt5o9acchpa4ivo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

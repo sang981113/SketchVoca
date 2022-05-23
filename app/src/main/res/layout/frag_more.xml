@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="675dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/child_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E8E8E8"
+        tools:context=".MainActivity2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Settingbutton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:text="설정"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:backgroundTint="@color/white"
+                app:cornerRadius="40dp" />
+
+            <Button
+                android:id="@+id/MyDatabutton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:text="내 정보"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:backgroundTint="@color/white"
+                app:cornerRadius="40dp" />
+
+            <Button
+                android:id="@+id/MyPostButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:backgroundTint="#2B2121"
+                android:text="내 게시물"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:backgroundTint="@color/white"
+                app:cornerRadius="40dp" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/Child_Frame"
+            android:layout_width="0dp"
+            android:layout_height="625dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent">
+
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
